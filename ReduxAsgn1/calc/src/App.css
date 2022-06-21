@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  border:1px solid forestgreen;
+  width:60%;
+  margin:auto;
+  background-color: #027bff;
+  border-radius: 20px;
+  margin-top: 10%;
+}
+.countdiv{
+
+  width:20%;
+  margin:auto;
+  font-size: xx-large;
+  color: white;
+  border:3px solid white;
+  border-radius: 10px;
+}
+.flex{
+  display: flex;
+  margin:auto;
+ 
+  justify-content: space-around;
+  width:50%;
+}
+.buttonsforval{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:10px;
+ 
+  
+}
+.indibutton{
+  height:auto;
+  width:auto;
+  margin-top: 20px;
+  font-size: xx-large;
+  background-color: #027bff;
+  color:white;
+  border:3px solid white;
+  border-radius: 10px;
+}
+.numberdiv{
+  height:auto;
+  width:150px;
+  font-Size:x-large;
+  background-color: #027bff;
+  color:white;
+  border-radius: 10px;
+  border:3px solid white;
+  margin-top: 25px;
+}
+.numberdiv::placeholder{
+  color:white;
+}
